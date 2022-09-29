@@ -1,3 +1,4 @@
+/* Área de Cabeçalho */
 .cabecalhoPrincipal .container {
     display: flex;
     align-items: center;
@@ -5,5 +6,36 @@
 }
 
 .cabecalhoPrincipal-nav {
+    display: flex;
+}
+
+/* Área do Rodapé */
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    flex-flow: column wrap;
+    height: 16rem;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+    margin-right: 5%;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
     display: flex;
 }
