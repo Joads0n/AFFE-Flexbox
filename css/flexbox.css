@@ -9,6 +9,20 @@
     display: flex;
 }
 
+/* Área de Cabeçalho - Mobile */
+
+@media(max-width: 768px){
+    .cabecalhoPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+    
+    .cabecalhoPrincipal-nav {
+        flex-direction: column;
+    }
+}
+
 /* Área da Seção Principal */
 
 .conteudoPrincipal-cursos {
@@ -27,6 +41,17 @@
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
     margin-right: 0;
+}
+
+/* Área da Seção Principal - Mobile */
+@media(max-width: 768px) {
+    .conteudoPrincipal-cursos {
+        flex-direction: column;
+    }
+    
+    .conteudoPrincipal-cursos-link {
+        width: 100%;
+    }
 }
 
 /* Área do Rodapé */
@@ -58,4 +83,29 @@
 
 .rodapePrincipal-contatoForm-fieldset {
     display: flex;
+}
+
+/* Área do Rodapé - Mobile  */
+@media(max-width: 768px) {
+    .rodapePrincipal-navMap-list {
+        height: auto;
+    }
+    
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rodapePrincipal-patrocinadores-list {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+    }
+    
+    .rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+    }
 }
