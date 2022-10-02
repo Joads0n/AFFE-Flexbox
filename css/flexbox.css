@@ -21,6 +21,10 @@
     .cabecalhoPrincipal-nav {
         flex-direction: column;
     }
+
+    .cabecalhoPrincipal-nav-link-app {
+        order: -1
+    }
 }
 
 /* Área da Seção Principal */
