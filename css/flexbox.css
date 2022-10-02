@@ -47,6 +47,25 @@
     margin-right: 0;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-video {
+    flex-grow: 1;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.videoSobre-sobre-list {
+    flex-grow: 1;
+}
+
 /* Área da Seção Principal - Mobile */
 @media(max-width: 768px) {
     .conteudoPrincipal-cursos {
