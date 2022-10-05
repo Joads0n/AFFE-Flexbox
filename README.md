@@ -5,7 +5,13 @@ Projeto feito no curso do [Alura](https://www.alura.com.br/) na formação de Fr
 <br>
 
 ## 🧪 Preview do Projeto
-<video align="center" src="" style="max-width: 730px;">
+
+- ### Versão para telas maiores:
+<video align="center" src="https://user-images.githubusercontent.com/38007646/193970711-3177d7f5-cb27-433c-9dbc-0fb5aedfe5cb.mp4" style="max-width: 730px;">
+</video>
+
+- ### Versão para telas menores:
+<video align="center" src="https://user-images.githubusercontent.com/38007646/193971572-c689f32f-52a3-4d2c-9587-c030b29e83d7.mp4" style="max-width: 730px;">
 </video>
   
 ## 🚀 Tecnologias
@@ -23,3 +29,11 @@ O projeto em questão é um simples site totalmente responsivo chamado de Alurin
 ---
 
 Feito com 💙 por Joadson Silva.
+
+
+
+
+
+
+
+
